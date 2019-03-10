@@ -28,8 +28,8 @@ public class CheatActivity extends AppCompatActivity {
             public void onClick(View v) {
                 cheated = true;
                 Intent intent = getIntent();
-                Question question = (Question) intent.getSerializableExtra(Keys.QUESTION);
-                if (question.getAnswer()) {
+                boolean trueAnswer = intent.getBooleanExtra(Keys.ANSWER, false);
+                if (trueAnswer) {
                     answerTextView.setText(R.string.true_answer);
                 } else {
                     answerTextView.setText(R.string.false_answer);

@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CheatActivity.class);
-                intent.putExtra(Keys.QUESTION, questions[currectQuestionIndex]);
+                intent.putExtra(Keys.ANSWER, questions[currectQuestionIndex].getAnswer());
                 startActivityForResult(intent, RequestCodes.CHEAT);
             }
         });

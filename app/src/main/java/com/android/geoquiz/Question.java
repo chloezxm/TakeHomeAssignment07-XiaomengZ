@@ -2,7 +2,7 @@ package com.android.geoquiz;
 
 import java.io.Serializable;
 
-public class Question implements Serializable {
+public class Question {
 
     private int questionId;
     private boolean answer;
