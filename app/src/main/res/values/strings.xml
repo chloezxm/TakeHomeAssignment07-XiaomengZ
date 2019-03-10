@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="true_answer_button_text">TRUE</string>
+    <string name="false_answer_button_text">FALSE</string>
+    <string name="cheat_button_text">CHEAT!</string>
+    <string name="prev_button_text">PREV</string>
+    <string name="next_button_text">NEXT</string>
+    <string name="confirm_to_cheat_message">Are you sure you want to do this?</string>
+    <string name="true_answer">The answer is true</string>
+    <string name="false_answer">The answer is false</string>
+    <string name="show_answer_button_text">SHOW ANSWER</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="cheated_toast">Cheating is wrong. </string>
+    <string name="empty_string"></string>
+
+    <string name="question_longest_river">The longest river in the world is the River Nile. </string>
+    <string name="question_highest_mountain">The highest mountain in the world is the Mount Everest. </string>
+    <string name="question_largest_country">The largest country in the world is Canada. </string>
+    <string name="question_tallest_building">The tallest building in the world is the One World Trade Center. </string>
+    <string name="question_largest_ocean">The largest ocean in the world is Pacific Ocean. </string>
+</resources>
